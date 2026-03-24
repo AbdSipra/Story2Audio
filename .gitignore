@@ -1,0 +1,45 @@
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+env/
+venv/
+*.env
+
+# Audio test/output files
+*.wav
+*.mp3
+outputs/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.tar
+*.sock
+
+# Huggingface / transformers cache
+~/.cache/
+transformers_cache/
+huggingface/
+
+# Generated protobuf files (optional, depends if you generate them or keep static)
+*.pb2.py
+
+# Test artifacts
+test_output.*
+tests/output/
